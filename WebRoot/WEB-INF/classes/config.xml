@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 这是一个例子 -->
+<Config>
+	<!-- 工具的名称 -->
+	<ToolName>
+		Bd_Materials
+	</ToolName>
+	<!-- 作者 -->
+	<Author>
+	feiyuan	
+	</Author>
+	<!-- 版本号 -->
+	<Version>
+		1.0
+	</Version>
+	<!-- 需要加载器加载的类(入口类)的全名 -->
+	<EntryClass>
+		com.fy.wetoband.tool.action.MaterialsManager
+	</EntryClass>
+
+	<!-- 描述 -->
+	<Description>
+		This tool fill the work MyTool.
+	</Description>
+	
+	<url>
+		http://www.sina.com.cn
+	</url>
+	
+	<toolType>
+		java project
+	</toolType>
+	<addHibernate>
+		true
+	</addHibernate>
+</Config>
